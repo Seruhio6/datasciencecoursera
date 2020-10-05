@@ -5,7 +5,7 @@ library(dplyr)
 # **Reading data**
 
 download.file('https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip',
-              destfile = './PA4Data.zip', method = 'curl')
+              destfile = './sourceData.zip', method = 'curl')
 unzip(zipfile = 'sourceData.zip')
 
 XTest <- read.table('./UCI HAR Dataset/test/X_test.txt')    
