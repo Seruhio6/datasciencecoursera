@@ -52,7 +52,7 @@ shinyUI(fluidPage(
             HTML("<b>3)</b> Click on the tabs to see the results.<br/>"),
             HTML("<br/>"),
             HTML("<b>Github repository with ui.R and server.R:</b>"),
-            HTML("<a target='blank' href='https://github.com/Seruhio6/datasciencecoursera'>Link</a>")
+            HTML("<a target='blank' href='https://github.com/Seruhio6/datasciencecoursera/tree/master/9.DevelopingDataProducts/PA94'>Link</a>")
         ),
 
         mainPanel(
